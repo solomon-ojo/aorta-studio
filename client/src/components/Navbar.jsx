@@ -51,7 +51,7 @@ const Navbar = () => {
 
           {/* Mobile Navlinks */}
           <nav
-            className={`lg:hidden absolute w-full right-0 bg-black overflow-hidden transition-all duration-500 ${
+            className={`lg:hidden absolute w-full right-0 bg-black overflow-hidden rounded-lg transition-all duration-500 ${
               isOpen
                 ? "max-h-[300px] top-[calc(100%+10px)]"
                 : "max-h-0 top-[calc(100%+10px)]"
