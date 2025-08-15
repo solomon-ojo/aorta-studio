@@ -5,10 +5,22 @@ module.exports = {
     extend: {
       container: {
         center: true,
-        padding: "20px",
+        padding: "10px",
       },
       colors: {
         primary: "#0025E8",
+      },
+      animation: {
+        rollLoop: "rollLoop 1s ease-in-out infinite",
+      },
+      keyframes: {
+        rollLoop: {
+          "0%": { transform: "translateY(0%)" },
+          "25%": { transform: "translateY(-100%)" },
+          "50%": { transform: "translateY(0%)" },
+          "75%": { transform: "translateY(100%)" },
+          "100%": { transform: "translateY(0%)" },
+        },
       },
     },
     screens: {
