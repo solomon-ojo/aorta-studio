@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="flex-1 flex items-center justify-end">
             {/* Desktop Button */}
             <div className="hidden md:block mr-2">
-              <Button text={"Contact"} />
+              <Button text={"Contact"} color={"bg-primary"} />
             </div>
             {/* Mobile Toggle Icon */}
             <div

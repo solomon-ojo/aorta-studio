@@ -9,7 +9,9 @@ module.exports = {
       },
       colors: {
         primary: "#0025E8",
+        secondary: "#6b7280",
       },
+      // For buttons
       animation: {
         rollLoop: "rollLoop 1s ease-in-out infinite",
       },
